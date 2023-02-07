@@ -19,6 +19,7 @@ todolist.addEventListener("click", function (e) {
   if (e.target.classList.contains("done")) {
     const liSpan = e.target.parentNode.previousElementSibling;
     liSpan.style.textDecoration = "line-through";
+    liSpan.style.color = "#fff"
   }
 
   if (e.target.classList.contains("remove")) {

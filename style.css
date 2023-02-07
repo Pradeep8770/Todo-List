@@ -164,5 +164,8 @@ a {
 
 .todo-btn{
     padding: 0.5rem 1rem;
+    margin: 1rem;
     cursor: pointer;
+    border-radius: 20px;
+
 }
